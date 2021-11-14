@@ -1,0 +1,47 @@
+body{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+
+}
+img{
+    height: 20vh;
+    width: 20vh;
+}
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  #mainGrid{
+      display: grid;
+      grid-column: auto;  
+      grid-row: auto;
+      width:90vw;
+      height: 90vh;
+  }
+  
+  .column {
+    flex: 50%;
+    padding: 0 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2vh;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #sideBar{
+      width:10vw;
+      height:100vh;
+      background-color: rgb(255, 203, 203,0.2);
+  }
